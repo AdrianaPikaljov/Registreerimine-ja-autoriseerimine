@@ -1,3 +1,16 @@
+# list.append(x) Добавляет элемент в конец списка
+# list.extend(L) Расширяет список list, добавляя в конец все элементы списка L
+# list.insert(i, x) Вставляет на i-ый элемент значение x
+# list.remove(x) Удаляет первый элемент в списке, имеющий значение x
+# list.pop(i) Удаляет i-ый элемент и возвращает его. Если индекс не указан,
+# удаляется последний элемент
+# list.index(x, [start [, end]]) Возвращает положение первого элемента от start до end со значением x
+# list.count(x) Возвращает количество элементов со значением x
+# list.sort([key = функция]) Сортирует список на основе функции
+# list.reverse() Разворачивает список
+# list.copy() Копия списка
+# list.clear() Очищает список
+
 users_list = ["adri"]  # Kasutajate nimekiri, kus hoiame kõiki registreeritud kasutajate sisselogimisi
 parool_list = ["ADRIIIlol228,."]  # Paroolide nimekiri, kus hoiame kõigi kasutajate paroole
 
